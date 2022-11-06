@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Diabetes Hub</title>
+</head>
+<style>
+    div.first {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 90px;
+    padding-left: 200px;
+    padding-right: 300px;
+  }
+    div.second {
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 30px;
+    padding-left: 195px;
+    padding-right: 300px;
+  }
+  div.third {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 300px;
+  }
+  div.thirdh {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 200px;
+    padding-right: 300px;
+  }
+  mark { 
+  background-color: lightgrey;
+  color: black;
+  }
+  div.forth {  
+    font-size: 15px;
+    padding-top: 40px;
+    padding-left: 200px;
+    padding-right: 300px;
+  }
+  div.fifth {
+    font-family:'Franklin Gothic Regular', 'Arial', Arial, sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 300px;
+  }
+  div.sixth {
+    font-family:'Franklin Gothic Regular', 'Arial', Arial, sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 300px;
+  }
+  div.seven {
+    font-family:'Franklin Gothic Regular', 'Arial', Arial, sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 300px;
+  }
+  div.footer{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-right: 2em;
+    display:inline-block;
+    vertical-align:top;
+  }
+</style>
+<body>
+    <!-- Image and text -->
+    <nav class="navbar navbar-expand-lg navbar navbar-dark"; style=background-color:black;>
+        <a class="navbar-brand" href="#">
+        <img src="https://iconscout.com/iconscout_logo-1024x1024.png" width="30" height="30" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="https://pixelclaws.github.io/Diabetes-Hub/">Diabetes Hub <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:3000/Final Project/game.html">Treatments</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Useful Links
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://www.nhs.uk/conditions/diabetes/">NHS</a>
+                <a class="dropdown-item" href="https://www.mayoclinic.org/diseases-conditions/diabetes/symptoms-causes/syc-20371444">Mayo Clinic</a>
+                <a class="dropdown-item" href="https://pubmed.ncbi.nlm.nih.gov/11806167/">PubMed</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- End navbar -->
+
+    <!-- Start Carousel
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active image_size">
+            <img src="https://photos.app.goo.gl/CrrzEBfchMg1K5Gj8" class="d-block w-100">
+        </div> 
+          <div class="carousel-item image_size">
+            <img src="https://i.natgeofe.com/n/63418674-88c4-419e-a2d0-e0711a52e8f5/04-panda-nationalgeographic_1558928.jpg?w=636&h=424" class="d-block w-100">
+        </div>
+          <div class="carousel-item image_size">
+            <img src="https://i.natgeofe.com/n/843a0f25-e351-4802-8efb-7395097f2bfb/BC0131_210204_CZ_03161_4x3.jpg" class="d-block w-100" alt="...">
+        </div>
+          <div class="carousel-item image_size">
+            <img src="https://static.nationalgeographic.co.uk/files/styles/image_3200/public/01-tiger-nationalgeographic_2373459.jpg?w=1190&h=794" class="d-block w-100" alt="...">
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    End Carousel -->
+
+    <div class="first">
+        Glossary | What do you know about diabetes?
+    </div>
+    <div class="second"> 
+        Diabetes
+    </div>
+    <div class="third">
+        In general terms, diabetes refers to the condition of suffering from persistent hyperglycaemia. A patient with diabetic syndrome is defined as diabetic if their
+        </div>
+    <div class="forth">
+        <dl class="row">
+            <dt class="col-sm-3">> HbA1c :</dt>
+            <dd class="col-sm-9">48 mmol/mol (6.5%) or more.</dd>
+            <dt class="col-sm-3">> Fasting Plasma Glucose :</dt>
+            <dd class="col-sm-9">7.0 mmol/L or more.</dd>
+            <dt class="col-sm-3">> Plasma Glucose :</dt>
+            <dd class="col-sm-9">11.1 mmol/L or more.</dd>
+    </div>
+    <div class="thirdh">
+      <mark>Source: <a href= "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes">
+          National Institue of Diabetes and Digestive and Kidney Diseases</mark></a>
+    </div>
+    <div class="fifth">
+        Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy. Sometimes your body doesn’t make enough—or any—insulin or doesn’t use insulin well. Glucose then stays in your blood and doesn’t reach your cells.
+    </div>
+    <div class="fifth">
+        Over time, having too much glucose in your blood can cause health problems. Although diabetes has no cure, you can take steps to manage your diabetes and stay healthy.
+    </div>
+    <div class="fifth">
+        Sometimes people call diabetes “a touch of sugar” or “borderline diabetes.” These terms suggest that someone doesn’t really have diabetes or has a less serious case, but every case of diabetes is serious.
+    </div>
+    <div class="container">
+    <div class="card-columns">
+        <div class="card">
+          <img class="card-img-top" src="https://cellaxys.com/wp-content/uploads/2019/10/Why-You-Should-Never-Have-Surgery-in-the-Evening-if-You-Can-Avoid-It_299782112-S_L-1024x683.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Who is eligible for surgical therapy?</h5>
+            <p class="card-text">Patients with BMI > 40, patients with BMI > 35 + significant comorbidities, or patients with BMI > 30 + T2DM (of less than 10 years duration).</p>
+          </div>
+        </div>
+        <div class="card p-3">
+          <blockquote class="blockquote mb-0 card-body">
+            <p>73% of surgery achieves remission, whilst only 13% of conventional therapy achieves remission.</p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                <cite title="Source Title">JAMA, 2008</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card">
+          <img class="card-img" src="https://www.miskawaanhealth.com/wp-content/uploads/2020/12/diabetes-causes-risk-factors.jpg" alt="Card image">
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://cdn.blrankings.com/best-lawyers/article-images/misdiagnosis-or-missed-diagnosis-2369-4" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Process of treating a diagnosed diabetic patient:</h5>
+            <p class="card-text">
+              <ol>
+                <li id="bp">Lifestyle intervention (12 months)</li>
+                <li id="bp">Referred to hospital → specialist weight management service (could take up to 6 months)</li>
+                <li id="bp">Surgery</li>
+              </ol>
+            </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card bg-primary text-white text-left p-3">
+          <blockquote class="blockquote mb-0">
+            <p>The brainstem and the hypothalamus are areas of the brain that controls appetite and is therefore useful in controlling appetite.</p>
+            <!-- <footer class="blockquote-footer">
+              <small>
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer> -->
+          </blockquote>
+        </div>
+        <div class="card text-left">
+          <div class="card-body">
+            <h5 class="card-title">What is GLP-1?</h5>
+            <p class="card-text">GLP-1 is secreted upon the ingestion of food by beta cells, alpha cells, the liver, the stomach and the brain to promote satiety and reduce appetite.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="https://www.ultrasound-guided-injections.co.uk/wp-content/uploads/2022/01/diabetes-awareness-month.jpg" alt="Card image">
+        </div>
+        <div class="card p-3 text-right">
+          <blockquote class="blockquote mb-0">
+            <p>Early after surgery, there is a decrease in hepatic insulin resistance, and caloric restriction has been proven to be more dominant. Other potential mechanisms (there are debates around them) includes altered nutrient sensing, anti-incretin and bile acids.</p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                <cite title="Source Title">Nature Reviews Gastroenterology, 2013</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Can the gut regulate glucose levels?</h5>
+            <p class="card-text">Yes. In gastric bypass patients, the 1st part of the small intestine (the part that's bypassed) is enlarged and could be measured by PET (PET measures glucose uptake of a specific organ). This part of the gut starts using glucose and removing it from the circulation for its own energy demands and eventually becomes a second weight loss independent mechanism of gastric bypass surgeries. However, this does not happen to sleeve or band patients.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr style="width:50%;text-align:center;color: black;margin-top: 2ch;">
+    <div class="third">
+        NICE Guidances for diagnosis (2021)
+    </div>
+    <div class="sixth">
+        If patient was <b>symptomatic</b>, a single abnormal HbA1c or fasting plasma glucose level can be used, although repeat testing is sensible to confirm the diagnosis. 
+    </div>
+    <div class="seven">
+        If patient was <b>asymptomatic</b>, it is advised not to diagnose diabetes on the basis of a single abnormal HbA1c or plasma glucose result (as a single test can only be viewed as a screening test). Proceed to arrange repeat testing, preferably with the same test, to confirm the diagnosis.  
+    </div>
+    
+    <!-- Start Footer-->
+    <footer>
+        <div class="footer" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 10px;"> 
+            @HealthSyndrome | Created and maintained by Carissa Wong.
+        </div>
+        <nav class="navbar fixed-bottom">
+            <a href="https://twitter.com" target="_blank" style="margin-right: 0.5em;">
+                <span class='social-icon'><i class="fab fa-twitter"></i></span>
+            </a>
+            <!-- <a href="https://facebook.com" target="_blank" style="margin-right: 0.5em;">
+                <span class='social-icon'><i class="fab fa-facebook-f"></i></span>
+            </a>
+            <a href="https://instagram.com" target="_blank" style="margin-right: 0.5em;">
+                <span class='social-icon'><i class="fab fa-instagram"></i></span>
+            </a> -->
+        </nav>
+    </footer>
+    <!--End Footer -->
+    
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
+  
